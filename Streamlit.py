@@ -66,43 +66,43 @@ with tab_pred:
     column1, column2 = tab_pred.columns([1, 1])
 
     column1.markdown(
-        "<h4 style='text-align: center; color: white;'>Performance Metrics Comparison for Different Data Distribution</h4>",
+        "<h4 style='text-align: center;'>Performance Metrics Comparison for Different Data Distribution</h4>",
         unsafe_allow_html=True)
     column1.image("graph/even_uneven_data_dist.png", use_column_width=True)
 
     column1.markdown(
-        "<h4 style='text-align: center; color: white;'>Feature Importance of XGBoost</h4>",
+        "<h4 style='text-align: center;'>Feature Importance of XGBoost</h4>",
         unsafe_allow_html=True)
     column1.image("graph/feature_importance_delayEVEN_xgboost.png", use_column_width=True)
 
     column1.markdown(
-        "<h4 style='text-align: center; color: white;'>Feature Importance of CatBoost</h4>",
+        "<h4 style='text-align: center;'>Feature Importance of CatBoost</h4>",
         unsafe_allow_html=True)
     column1.image("graph/feature_importance_minuteEVEN_catboost.png", use_column_width=True)
 
     column1.markdown(
-        "<h4 style='text-align: center; color: white;'>ROC AUC Values for Different Models</h4>",
+        "<h4 style='text-align: center;'>ROC AUC Values for Different Models</h4>",
         unsafe_allow_html=True)
     column1.image("graph/model_performance_roc_auc_EVEN.png", use_column_width=True)
 ##----------------------------
 
     column2.markdown(
-        "<h4 style='text-align: center; color: white;'>Airline vs Flight Count Delay Time Analysis</h4>",
+        "<h4 style='text-align: center;'>Airline vs Flight Count Delay Time Analysis</h4>",
         unsafe_allow_html=True)
     column2.image("graph/airline_delaytime.png", use_column_width=True)
 
     column2.markdown(
-        "<h4 style='text-align: center; color: white;'>Delay Time Analysis According to Weekday</h4>",
+        "<h4 style='text-align: center;'>Delay Time Analysis According to Weekday</h4>",
         unsafe_allow_html=True)
     column2.image("graph/delaytime_vs_week.png", use_column_width=True)
 
     column2.markdown(
-        "<h4 style='text-align: center; color: white;'>Delay Time Analysis According to Month</h4>",
+        "<h4 style='text-align: center;'>Delay Time Analysis According to Month</h4>",
         unsafe_allow_html=True)
     column2.image("graph/delaytime_vs_month.png", use_column_width=True)
 
     column2.markdown(
-        "<h4 style='text-align: center; color: white;'>RMSE Values for Different Models</h4>",
+        "<h4 style='text-align: center;'>RMSE Values for Different Models</h4>",
         unsafe_allow_html=True)
     column2.image("graph/RMSE_comparison_EVEN.png", use_column_width=True)
 
